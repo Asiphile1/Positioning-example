@@ -1,0 +1,26 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 10px; 
+  }
+  
+  .hero {
+    background-color: #61dafb;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    width: 700%; 
+    max-width: 800px; 
+    margin: auto;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+
+
+  /* min-height: calc(100vh - 100px - 100px); THIS IS NOT WORKING AS I WANT SO IM LEZVING IT OUT  */ 

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffa500; 
+  }
+  
+  .App {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+  /* to make the page responsive i'd need to wrap the css */
+  /* when the page changes the shape of the page must not change */
+  /* flex should be done where there is spaces */
+  /* this project is due 10am tomorrow */
