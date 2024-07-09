@@ -1,16 +1,35 @@
 .footer {
-    display: flex;
+  display: flex;
+  width: 100%;
+  height: 100px;
+ 
+}
+
+/* added margin 15px to the left and right side container will not touch the end of the page */
+/* I'm not sure if the foother is one container or two thats why there a styling for each */
+
+.left-side {
+  flex: 1;
+  background-color: white;
+  margin: 15px;
+}
+
+.right-side {
+  flex: 1;
+  background-color: black;
+  margin: 15px;
+}
+
+/* added @ media */
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-side, .right-side {
     width: 100%;
-    height: 100px;
+    height: 50px;
   }
-  
-  .left-side {
-    flex: 1;
-    background-color: white;
-  }
-  
-  .right-side {
-    flex: 1;
-    background-color: black;
-  }
-  
+}

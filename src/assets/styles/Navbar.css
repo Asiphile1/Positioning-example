@@ -1,42 +1,63 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+  margin: 15px;
+}
+
+/* addes margin 15px so it will not touch the end of the page */
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #61dafb;
+  border-radius: 50%;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #61dafb;
+  margin: 0 5px;
+}
+
+.box1 {
+  width: 30px;
+  height: 30px;
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+}
+
+.box3 {
+  width: 70px;
+  height: 70px;
+}
+
+/* added @media */
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
   }
-  
-  .circle {
+
+  .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box, .circle {
     width: 40px;
     height: 40px;
-    background-color: #61dafb;
-    border-radius: 50%;
+    margin: 5px 0;
   }
-  
-  .box-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .box {
-    width: 50px;
-    height: 50px;
-    background-color: #61dafb;
-    margin: 0 5px;
-  }
-  
-  .box1 {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .box2 {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .box3 {
-    width: 70px;
-    height: 70px;
-  }
-  
+}

@@ -1,26 +1,38 @@
 .hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    padding-top: 10px; 
-  }
-  
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 10px;
+  margin:15px;         
+}
+
+.hero {
+  background-color: #61dafb;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  /* width: 90%; */
+  /* max-width: 800px;
+  margin: auto; */
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+/* added @media */
+
+@media (max-width: 600px) {
   .hero {
-    background-color: #61dafb;
-    padding: 50px;
-    color: #fff;
-    text-align: center;
-    width: 700%; 
-    max-width: 800px; 
-    margin: auto;
+    padding: 20px;
   }
-  
+
   .hero h1 {
-    margin: 0;
-    font-size: 3em;
+    font-size: 2em;
   }
-  
+}
+
 
 
   /* min-height: calc(100vh - 100px - 100px); THIS IS NOT WORKING AS I WANT SO IM LEZVING IT OUT  */ 
