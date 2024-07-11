@@ -1,19 +1,22 @@
 .content-circle {
   display: flex;
   justify-content: center;
-  padding: 0 15px;
+  /* padding: 0 15px;
+  padding is inside the container and margin is outside  */
   align-items: center;
-  /* margin: 20px auto;
-  width: 90%;
+  margin: 40px;
+  /* width: 90%;
   max-width: 800px; */
+  gap: 70px;
   
 }
 
 .square {
   width: 48%;
-  height: 150px;
+  height: 300px;
   background-color: #ff6347;
   /* margin: 0 15px; */
+  /* gap: 20px; */
 }
 
 /* ch\nged margin from 10px to 15px ...*/
@@ -24,6 +27,7 @@
   background-color: #4682b4;
   border-radius: 50%;
   margin: 0 10px;
+  /* gap:40px; */
 }
 
 /* added @media */

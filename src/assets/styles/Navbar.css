@@ -4,7 +4,8 @@
   align-items: center;
   padding: 10px;
   background-color: #282c34;
-  margin: 15px;
+  /* margin: 15px; */
+  /* picture does not have padding, well the drawing  */
 }
 
 /* addes margin 15px so it will not touch the end of the page */

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px auto;
+  margin: 30px;
   width: 100%;
   /* max-width: 3000px; */
   padding: 15px;
@@ -17,9 +17,9 @@
 
 .block {
   width: 48%;
-  height: 150px;
+  height: 200px;
   background-color: #ff6347;
-  /* margin: 20px; */
+  /* margin: 20px;  */
 }
 
 .rectangle {

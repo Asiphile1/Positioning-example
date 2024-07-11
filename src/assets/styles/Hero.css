@@ -2,8 +2,8 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  padding-top: 10px;
-  margin:15px;         
+  /* padding-top: 10px; */
+  margin:45px;         
 }
 
 .hero {
@@ -11,6 +11,7 @@
   padding: 50px;
   color: #fff;
   text-align: center;
+  height: 250px;
   /* width: 90%; */
   /* max-width: 800px;
   margin: auto; */
