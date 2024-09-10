@@ -1,4 +1,4 @@
-# README - Shell Chair Product Page Design (HTML & CSS Project)
+# Shell Chair Product Page Design (HTML & CSS Project)
 
 ## Overview
 
